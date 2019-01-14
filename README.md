@@ -6,7 +6,7 @@ OpenGL & GLUT port for [loli programming language](https://github.com/txlyre/lol
 
 Copy ``libloli.so`` (``libloli.dll`` on windows) to ``bin`` directory and execute commands: 
 
-```bash
+```blyash
 mkdir ./build               # make build directory
 cmake -S ./ -B ./build      # generate make file to build directory
 cd build && make            # compile LoliGL
@@ -24,7 +24,8 @@ Then import ``GL`` module from library.
 ```
 import GL
 
-fn glutDisplayFunc {
+fn glutDisplayFunc 
+{
     sayln("glutDisplayFunc called")
 }
 
