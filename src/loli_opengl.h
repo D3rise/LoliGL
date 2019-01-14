@@ -11,9 +11,6 @@ void loli_GL__glutCreateWindow(loli_state *);
 void loli_GL__glutMainLoop(loli_state *);
 void loli_GL__glutDisplayFunc(loli_state *);
 
-// TODO: delete it
-void loli_GL__example(loli_state *);
-
 // OpenGL
 void loli_GL__end(loli_state *);
 void loli_GL__flush(loli_state *);
